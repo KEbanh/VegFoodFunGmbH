@@ -1,0 +1,76 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+  <head>
+  <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+   <meta name="viewport" content="width=device-width" />
+
+  <title>Infoteam GmbH - Kurse</title>
+<link href="Seite.css" rel="stylesheet" type="text/css">
+  <link href="styles.css" rel="stylesheet" type="text/css">
+</head>
+<body>
+ <div id="Gesamt">
+
+   <div class="kopf">
+   	<img src="Bilder/Logo_Vorgabe.jpg">
+
+   </div>
+
+   <div class="sprung">
+        <h3>Menü</h3>
+        <p />
+        <div class="navigation" >
+         <ul>
+          <li><a href="index_Ergebnis.html">Unsere Leitziele</a></li>
+          <li><a href="produkte.html">Produktlinien</a></li>
+          <li><a href="buchung.html">Kochkurse</a></li>
+         </ul>
+       </div>
+   </div>
+
+
+   <div class="inhalt">
+
+
+
+
+            <form id="anmeldung" action="#" method="post">
+            <div>
+              <label for="Buchung">Name<sup>*</sup>:</label>
+              <input type="text" id="Name_U" name="Name_U" required placeholder="Bitte Vor- und Nachname">
+            </div>
+            <div>
+              <label for="mail">E-Mail-Adresse<sup>*</sup>:</label>
+              <input type="email" id="mail" name="besuchermail" placeholder="Bsp.: Muster@online.de">
+            </div>
+
+            <div>
+                <label for="Buchung">Kochkurs<sup>*</sup></label>
+                <select id="Buchung" required>
+                  <option> Bitte auswählen </option>
+                  <option value="Vegan kochen">Vegan kochen</option>
+                  <option value="Vegetarisch kochen">Vegetarisch kochen</option>
+                  <option value="Vegane Beratung">Vegane Beratung</option>
+                </select>
+  				</div>
+
+             <div>
+              <label for="nachricht">Ihre Nachricht:</label>
+              <textarea id="nachricht" name="nachricht" cols="20" rows="3"></textarea>
+            </div>
+
+
+          <div>
+              <input type="submit" value="Abschicken">
+
+            </div>
+            </form>
+   </div>
+
+
+
+ </div>
+
+
+</body>
+</html>
